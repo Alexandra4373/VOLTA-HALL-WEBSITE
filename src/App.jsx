@@ -1,15 +1,29 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import logo from "./assets/logo.jpeg";
 
 function App() {
-  const [count, setCount] = useState(0)
+ 
 
   return (
     <>
       <div>
-       <p>Volta hall saane</p>
+      <div className=''>
+      <div className=" ">
+            <div className="">
+               {/* logo */}
+               <div className="">
+                <img src={logo} />
+              </div>
+              <ul className=" ">
+                <li>HOME </li>
+                <li>MANAGEMENT</li>
+                <li>JCR</li>
+                <li>ALUMNI</li>
+                <li>EVENTS</li>
+                <li>CONTACTS</li>
+              </ul>
+            </div>
+          </div>
+      </div>
       </div>
       
     </>
